@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSIX xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" >
+
+  <Identifier ID="000a554a-ca9a-44b9-ae2b-de75ff9d1e03">
+    <Name>Viking - 000a554a-ca9a-44b9-ae2b-de75ff9d1e03</Name>
+    <Author>Company</Author>
+    <Version>1.0</Version>
+    <Description>Refactoring tool for Visual Studio</Description>
+    <Locale>1033</Locale>
+    <InstalledByMSI>false</InstalledByMSI>
+    <SupportedVSEdition version="10.0">
+      <Edition>Pro</Edition>
+      <Edition>VST_All</Edition>
+    </SupportedVSEdition>
+    <SupportedFrameworkRuntimeEdition minversion="4.0" maxversion="4.0" />
+  </Identifier>
+
+  <References/>
+  
+  <Content>
+    <VSPackage>Viking.pkgdef</VSPackage>
+  </Content>
+
+</VSIX>

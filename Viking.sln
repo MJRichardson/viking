@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viking", "Viking\Viking.csproj", "{023CCF7F-ED1E-4D99-9F64-E60BD721D886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viking_IntegrationTestProject", "Viking\Viking_IntegrationTestProject\Viking_IntegrationTestProject.csproj", "{0031D7EB-BC78-4D8A-848D-3F5303911279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{179CF441-621B-4FD5-B4FB-00D5B645038D}"
+	ProjectSection(SolutionItems) = preProject
+		IntegrationTests.testrunconfig = IntegrationTests.testrunconfig
+		UnitTests.testrunconfig = UnitTests.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viking_UnitTestProject", "Viking\Viking_UnitTestProject\Viking_UnitTestProject.csproj", "{4F17A2E4-904D-47FA-88C9-11C0F89D3222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{023CCF7F-ED1E-4D99-9F64-E60BD721D886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023CCF7F-ED1E-4D99-9F64-E60BD721D886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023CCF7F-ED1E-4D99-9F64-E60BD721D886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023CCF7F-ED1E-4D99-9F64-E60BD721D886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0031D7EB-BC78-4D8A-848D-3F5303911279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0031D7EB-BC78-4D8A-848D-3F5303911279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0031D7EB-BC78-4D8A-848D-3F5303911279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0031D7EB-BC78-4D8A-848D-3F5303911279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F17A2E4-904D-47FA-88C9-11C0F89D3222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F17A2E4-904D-47FA-88C9-11C0F89D3222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F17A2E4-904D-47FA-88C9-11C0F89D3222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F17A2E4-904D-47FA-88C9-11C0F89D3222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
